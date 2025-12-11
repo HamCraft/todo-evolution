@@ -1,0 +1,1 @@
+make a todo app Next.js, FastAPI, SQLModel, Neon DB
