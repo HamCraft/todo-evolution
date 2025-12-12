@@ -6,6 +6,7 @@ import { TaskForm } from '@/components/todo/TaskForm';
 import { TaskFilters } from '@/components/todo/TaskFilters';
 import { TaskStats } from '@/components/todo/TaskStats';
 import { EmptyState } from '@/components/todo/EmptyState';
+import { ChatBot } from '@/components/chat/ChatBot';
 import { Button } from '@/components/ui/button';
 import { Plus, CheckSquare } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
@@ -170,6 +171,9 @@ const Index = () => {
         onSubmit={handleUpdateTask}
         editTask={editingTask}
       />
+
+      {/* AI Chat Assistant */}
+      <ChatBot tasks={tasks} />
     </div>
   );
 };
