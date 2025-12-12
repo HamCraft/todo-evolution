@@ -1,0 +1,4 @@
+project_id = "mnndakrhwddbplnisxod"
+
+[functions.task-assistant]
+verify_jwt = false
